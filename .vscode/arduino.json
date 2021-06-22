@@ -2,5 +2,5 @@
     "port": "COM10",
     "board": "arduino:avr:uno",
     "programmer": "arduino:arduinoisp",
-    "sketch": "LED On and Off Python.ino"
+    "sketch": "LED_On_and_Off_Python\\LED_On_and_Off_Python.ino"
 }

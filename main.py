@@ -4,7 +4,7 @@ import time
 arduino = serial.Serial(port='COM10', baudrate=115200, timeout=.1)
 
 while True:
-    i = input("on or off: ").strip()
+    i = input("on or off | done to end: ").strip()
     if i == 'done':
         print("Done")
         break

@@ -7,11 +7,6 @@ void setup() {
 }
 
 void loop() {
-////  while (!Serial.available());
-////  x = Serial.readString().toInt();
-//  x = x + 1;
-//  
-//  Serial.println(x);
 if(Serial.available()>0){
   inBytes = Serial.readStringUntil('\n');
   if(inBytes == "on"){
@@ -25,7 +20,7 @@ if(Serial.available()>0){
   }
 
   else{
-    Serial.write("Invalid Input Given");
+    Serial.write("Invalid Input Provided");
   }
 }
 }
