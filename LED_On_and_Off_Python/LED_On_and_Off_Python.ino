@@ -7,20 +7,20 @@ void setup() {
 }
 
 void loop() {
-if(Serial.available()>0){
-  inBytes = Serial.readStringUntil('\n');
-  if(inBytes == "on"){
-    digitalWrite(LED_BUILTIN, HIGH);
-    Serial.write("LED On");
-  }
+  if(Serial.available()>0){
+    inBytes = Serial.readStringUntil('\n');
+    if(inBytes == "on"){
+      digitalWrite(LED_BUILTIN, HIGH);
+      Serial.write("LED On");
+    }
 
-   else if(inBytes == "off"){
-    digitalWrite(LED_BUILTIN, LOW);
-    Serial.write("LED Off");
-  }
+    else if(inBytes == "off"){
+      digitalWrite(LED_BUILTIN, LOW);
+      Serial.write("LED Off");
+    }
 
-  else{
-    Serial.write("Invalid Input Provided");
+    else{
+      Serial.write("Invalid Input Provided");
+    }
   }
-}
 }
