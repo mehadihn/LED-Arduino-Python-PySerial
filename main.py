@@ -1,7 +1,7 @@
 import serial
 import time
 
-arduino = serial.Serial(port='COM10', baudrate=115200, timeout=.1)
+arduino = serial.Serial(port='COM11', baudrate=115200, timeout=.1)
 
 while True:
     i = input("on or off | done to end: ").strip()
