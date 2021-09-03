@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Arduino",
-            "compilerPath": "C:\\Users\\CredoSense_Desktop_1\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\bin\\xtensa-lx106-elf-g++",
+            "compilerPath": "C:\\Users\\CredoSense_Desktop_3\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\bin\\xtensa-lx106-elf-g++",
             "compilerArgs": [
                 "-U__STRICT_ANSI__",
                 "-w",
@@ -17,19 +17,19 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-                "C:\\Users\\CredoSense_Desktop_1\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\tools\\sdk\\include",
-                "C:\\Users\\CredoSense_Desktop_1\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\tools\\sdk\\lwip2\\include",
-                "C:\\Users\\CredoSense_Desktop_1\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\cores\\esp8266",
-                "C:\\Users\\CredoSense_Desktop_1\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\variants\\d1",
-                "c:\\users\\credosense_desktop_1\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\xtensa-lx106-elf\\include\\c++\\10.2.0",
-                "c:\\users\\credosense_desktop_1\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\xtensa-lx106-elf\\include\\c++\\10.2.0\\xtensa-lx106-elf",
-                "c:\\users\\credosense_desktop_1\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\xtensa-lx106-elf\\include\\c++\\10.2.0\\backward",
-                "c:\\users\\credosense_desktop_1\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\lib\\gcc\\xtensa-lx106-elf\\10.2.0\\include",
-                "c:\\users\\credosense_desktop_1\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\lib\\gcc\\xtensa-lx106-elf\\10.2.0\\include-fixed",
-                "c:\\users\\credosense_desktop_1\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\xtensa-lx106-elf\\include"
+                "C:\\Users\\CredoSense_Desktop_3\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\tools\\sdk\\include",
+                "C:\\Users\\CredoSense_Desktop_3\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\tools\\sdk\\lwip2\\include",
+                "C:\\Users\\CredoSense_Desktop_3\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\cores\\esp8266",
+                "C:\\Users\\CredoSense_Desktop_3\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\variants\\d1",
+                "c:\\users\\credosense_desktop_3\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\xtensa-lx106-elf\\include\\c++\\10.2.0",
+                "c:\\users\\credosense_desktop_3\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\xtensa-lx106-elf\\include\\c++\\10.2.0\\xtensa-lx106-elf",
+                "c:\\users\\credosense_desktop_3\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\xtensa-lx106-elf\\include\\c++\\10.2.0\\backward",
+                "c:\\users\\credosense_desktop_3\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\lib\\gcc\\xtensa-lx106-elf\\10.2.0\\include",
+                "c:\\users\\credosense_desktop_3\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\lib\\gcc\\xtensa-lx106-elf\\10.2.0\\include-fixed",
+                "c:\\users\\credosense_desktop_3\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.0.0-newlib4.0.0-gnu23-48f7b08\\xtensa-lx106-elf\\include"
             ],
             "forcedInclude": [
-                "C:\\Users\\CredoSense_Desktop_1\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\cores\\esp8266\\Arduino.h"
+                "C:\\Users\\CredoSense_Desktop_3\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.0\\cores\\esp8266\\Arduino.h"
             ],
             "cStandard": "c11",
             "cppStandard": "c++17",
@@ -44,7 +44,7 @@
                 "TCP_MSS=536",
                 "LWIP_FEATURES=1",
                 "LWIP_IPV6=0",
-                "ARDUINO=10813",
+                "ARDUINO=10815",
                 "ARDUINO_ESP8266_WEMOS_D1R1",
                 "ARDUINO_ARCH_ESP8266",
                 "ARDUINO_BOARD=\"ESP8266_WEMOS_D1R1\"",
